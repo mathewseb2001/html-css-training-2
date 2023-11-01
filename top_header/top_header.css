@@ -1,0 +1,148 @@
+body {
+  font-family: "Inter";
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 52px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  margin: 0px;
+  background-color: rgb(210, 207, 207); 
+}
+.header p1 {
+  padding-left: 6.5%;
+}
+.header p1,
+p2,
+p3 {
+  margin-top: 15px;
+}
+.header p3 {
+  margin-right: 6.5%;
+}
+.headerIconsLeft {
+  float: left;
+  margin-top: 14px;
+  margin-left: 5px;
+}
+.headerIconsRight {
+  margin-top: 16px;
+  margin-right: 5px;
+}
+.navBar {
+  margin-left: 6.5%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  color: black;
+  margin-right: 51px;
+}
+.navBar img {
+  margin: auto;
+  height: 40px;
+}
+.navBar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: 118px;
+}
+.navBar ul li {
+  margin: 20px 20px 5px 20px;
+  font-weight: 120px;
+  text-decoration: none;
+  font-size: 14px;
+  float: right;
+}
+.navBar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navBar ul li a:active {
+  color: red;
+}
+.navBar ul li a:hover {
+  color: red;
+}
+.middle img {
+  width: 87%;
+  margin-left: 6.5%;
+  margin-top: 100px;
+}
+.middle {
+  margin-top: 30px;
+}
+.imgText {
+  position: absolute;
+  bottom: 110px;
+  left: 150px;
+  color: rgb(0, 0, 0);
+}
+.imgText p4{
+  font-weight:1000;
+  font-size: 35px;
+}
+.imgText p5{
+  font-weight:500;
+  font-size: 15px;
+}
+.button1 {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.imgTextAlign {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.imgTextAlign a {
+  margin-top: 13px;
+  color: black;
+}
+input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.float {
+  /* position: absolute;
+  margin-left: 250px;
+  margin-right: 250px;
+  top:600px;
+  background-color: white;
+  border-radius: 5px;
+padding-left:100px;padding-right: 100px; */
+display: flex;
+}
+.upFloat{
+  flex-direction: row;
+}
+.downFloat{
+  flex-direction: row;
+}
+.appointmentForm{
+  border-radius: 5px;
+}
+.departmentWrap{
+  margin-top: 50px;
+}
+.Departments{
+  display: flex;
+  overflow-x: scroll;
+}
