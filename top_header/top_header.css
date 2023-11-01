@@ -233,5 +233,36 @@ padding-left:100px;padding-right: 100px; */
   font-size: 30px;
   font-family: Inter;
 }
-
-
+.specialist{
+  margin-top: 100px;
+}
+.specialistHead{
+  text-align: center;
+}
+.specialistHead Span{
+  font-weight: 900;
+  font-size: 30px;
+  font-family: Inter;
+}
+.specialistImg{
+  display: flex;
+  margin-left: 70px;
+}
+.specialistItem{
+  padding: 15px;
+}
+.button2  {
+  background-color: #17C1A3; 
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 550px;
+}
