@@ -239,7 +239,7 @@ padding-left:100px;padding-right: 100px; */
 .specialistHead{
   text-align: center;
 }
-.specialistHead Span{
+.specialistHead span{
   font-weight: 900;
   font-size: 30px;
   font-family: Inter;
@@ -265,4 +265,20 @@ padding-left:100px;padding-right: 100px; */
   border-radius: 5px;
   width: 150px;
   margin-left: 550px;
+}
+.facilities{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: Inter;
+}
+.facilitiesBody{
+  display: flex;
+  margin-top:50px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+.facilitiesItems{
+  padding: 2px;
 }
