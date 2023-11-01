@@ -192,3 +192,46 @@ padding-left:100px;padding-right: 100px; */
 .departmentItems {
   padding: 10px;
 }
+.whygg{
+  background-color: #E8F9F6;
+  margin-left: 80px;
+  margin-right: 77px;
+  margin-top:50px;
+  position: relative;
+  display: flex;
+}
+.whyggLeft{
+  flex: 1;
+
+}
+.whyggLeftDoctor{
+  position: absolute;
+  margin-top: 45px;
+  
+}
+.whyggPattern{
+  position: absolute;
+}
+.whyggRight{
+  flex: 1;
+  margin-left: 50px;
+}
+.whyggRight ul{
+  list-style-image: url("img/icon_y_gg.jpg");
+  margin-left: 50px;
+  margin-top: 170px;
+}
+.whyggRight li{
+ padding: 10px;
+}
+
+.whyggRight span{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 100px;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: Inter;
+}
+
+
