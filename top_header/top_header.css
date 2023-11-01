@@ -159,8 +159,9 @@ padding-left:100px;padding-right: 100px; */
 .appointmentForm {
   border-radius: 5px;
 }
-.departmentWrap{
+/* .departmentWrap{
   display: flex;
+  background-color: black;
 }
 .departmentWrap span {
   position: absolute;
@@ -171,4 +172,23 @@ padding-left:100px;padding-right: 100px; */
   display: flex;
   overflow-x: scroll;
   margin-top:100px;
+} */
+.departmentsWrap {
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 90px;
+}
+.Departments {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.departmentsWrap span {
+  font-weight: 900;
+  font-size: 40px;
+  font-family: Inter;
+}
+.departmentItems {
+  padding: 10px;
 }
