@@ -33,7 +33,8 @@ p3 {
 }
 .navBar {
   margin-left: 6.5%;
-  margin-top: 50px;
+  background-color: white;
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -119,8 +120,21 @@ input {
   width: 30%;
   padding: 12px 20px;
   margin: 8px 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
   size: 80;
+  border:1px solid black;
+  border-radius: 1px;
+}
+select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing:border-box;
+  size: 80;
+  border:1px solid black;
+  border-radius: 1px;
+  background-color: white;
+  border-radius: 5px;
 }
 .white-box {
   position: absolute;
@@ -134,6 +148,7 @@ input {
 .white-box span {
   font-weight: bold;
   font-size: larger;
+  margin-left: 10px;
 }
 .float {
   /* position: absolute;
@@ -192,40 +207,38 @@ padding-left:100px;padding-right: 100px; */
 .departmentItems {
   padding: 10px;
 }
-.whygg{
-  background-color: #E8F9F6;
+.whygg {
+  background-color: #e8f9f6;
   margin-left: 80px;
   margin-right: 77px;
-  margin-top:50px;
+  margin-top: 50px;
   position: relative;
   display: flex;
 }
-.whyggLeft{
+.whyggLeft {
   flex: 1;
-
 }
-.whyggLeftDoctor{
+.whyggLeftDoctor {
   position: absolute;
   margin-top: 45px;
-  
 }
-.whyggPattern{
+.whyggPattern {
   position: absolute;
 }
-.whyggRight{
+.whyggRight {
   flex: 1;
   margin-left: 50px;
 }
-.whyggRight ul{
+.whyggRight ul {
   list-style-image: url("img/icon_y_gg.jpg");
   margin-left: 50px;
   margin-top: 170px;
 }
-.whyggRight li{
- padding: 10px;
+.whyggRight li {
+  padding: 10px;
 }
 
-.whyggRight span{
+.whyggRight span {
   position: absolute;
   margin-left: 50px;
   margin-top: 100px;
@@ -233,26 +246,26 @@ padding-left:100px;padding-right: 100px; */
   font-size: 30px;
   font-family: Inter;
 }
-.specialist{
+.specialist {
   margin-top: 100px;
 }
-.specialistHead{
+.specialistHead {
   text-align: center;
 }
-.specialistHead span{
+.specialistHead span {
   font-weight: 900;
   font-size: 30px;
   font-family: Inter;
 }
-.specialistImg{
+.specialistImg {
   display: flex;
   margin-left: 70px;
 }
-.specialistItem{
+.specialistItem {
   padding: 15px;
 }
-.button2  {
-  background-color: #17C1A3; 
+.button2 {
+  background-color: #17c1a3;
   border: none;
   color: white;
   padding: 12px 20px;
@@ -266,19 +279,178 @@ padding-left:100px;padding-right: 100px; */
   width: 150px;
   margin-left: 550px;
 }
-.facilities{
+.facilities {
   margin-top: 50px;
   text-align: center;
   font-weight: 900;
   font-size: 30px;
   font-family: Inter;
 }
-.facilitiesBody{
+.facilitiesBody {
   display: flex;
-  margin-top:50px;
+  margin-top: 50px;
   margin-left: 65px;
   margin-right: 65px;
 }
-.facilitiesItems{
+.facilitiesItems {
   padding: 2px;
+}
+.interests {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: Inter;
+}
+.interestsBody {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+.interests h3 {
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 18px;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: Inter;
+}
+.interests p {
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 18px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Inter;
+}
+.interests a {
+  color: green;
+}
+.newsletter {
+  background-color: #eaf2ff;
+  padding: 100px;
+  margin-top: -250px;
+  height: 400px;
+  position: relative;
+  z-index: -1;
+}
+.subscribe {
+  background-color: white;
+  display: flex;
+  height: 177px;
+  margin-top: 250px;
+}
+.subscribeLeft {
+  flex: 1;
+}
+.subscribeLeft p {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 70px;
+  font-weight: 900;
+  font-size: 17px;
+  font-family: Inter;
+}
+#email {
+  border: none;
+  margin-top: 60px;
+  width: 200px;
+  height: 5px;
+  margin-right: 300px;
+}
+.button3 {
+  position: absolute;
+  background-color: #17c1a3;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  margin-top: -20px;
+  margin-left: 200px;
+}
+.subscribeRight hr {
+  width: 290px;
+  margin-top: px;
+  margin-left: 10px;
+}
+.footerTop {
+  display: flex;
+}
+.footerTopLeft {
+  flex: 1;
+}
+.footerTopMid {
+  flex: 1;
+  margin-left: 100px;
+}
+.footerTopRight {
+  flex: 1;
+  margin-left: 60px;
+}
+.footerTopRight a {
+  text-decoration: none;
+  color: black;
+}
+.footerTopMid a {
+  text-decoration: none;
+  color: black;
+}
+.footerTopMidAboutContent {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.footerTopRightAboutContent {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.footerBottom {
+  display: flex;
+}
+.footerBottomText {
+  display: flex;
+  flex: 2;
+  margin-top: 30px;
+}
+.footerBottomSocial {
+  flex: 1;
+}
+.footer {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-weight: 100;
+  font-size: 10px;
+  font-family: Inter;
+}
+.footerBottomTextLeft {
+  flex: 1;
+  
+}
+.footerBottomTextMid {
+  flex: 1;
+  margin-left: 80px;
+}
+.footerBottomTextRight {
+  flex: 1;
+}
+.footerBottomText p {
+  margin-left: 20px;
+  margin-top: -15px;
+}
+.footerBottomSocial{
+  font-weight:900;
+  font-size: 15px;
+  font-family: Inter;
+  margin-left: 50px;
+}
+.trademark{
+  font-weight:50;
+  font-size: 10px;
+  font-family: Inter;
+  text-align: center;
 }

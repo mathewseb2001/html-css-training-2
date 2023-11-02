@@ -40,7 +40,7 @@
         <p5>Fastest-Growing Multi Speciality Hospital<br />in South Kerala</p5>
         <div class="imgTextAlign">
           <button class="button1">Book an Appointment</button>
-          <!-- <img src="img/play.png"> -->
+          <!-- <img src="img/play_button.png"> -->
           <a href="blank">Doctors Talk</a>
         </div>
       </div>
@@ -64,10 +64,12 @@
               placeholder="Phone number"
             />
             <input
-              class="appointmentForm"
-              type="date"
-              id="lname"
-              placeholder="Date"
+              placeholder="Select Date"
+              class="textbox-n"
+              type="text"
+              onfocus="(this.type='date')"
+              onblur="(this.type='text')"
+              id="date"
             />
             <br />
           </form>
@@ -75,18 +77,32 @@
       </div>
       <div class="downFloat">
         <form>
-          <input
+          <!-- <input
             class="appointmentForm"
             type=""
             id="lname"
             placeholder="Select Department"
-          />
-          <input
+          /> -->
+
+          <select name="deptlist" id="dept">
+            <option value="dept">Select Department</option>
+            <option value="surgery">Hepatobiliary Surgery</option>
+            <option value="Oncology">Oncology</option>
+            <option value="ent">ENT</option>
+          </select>
+          <!-- <input
             class="appointmentForm"
             type=""
             id="lname"
             placeholder="Select Doctor"
-          />
+          /> -->
+          <select name="doctlist" id="doc">
+            <option value="doc">Select Doctor</option>
+            <option value="surgery">Lisha Powell</option>
+            <option value="Oncology">Chris Nelson</option>
+            <option value="ent">Linda Stapleton</option>
+            <option value="ent">Sandra John</option>
+          </select>
           <button class="button1">Book an Appointment</button>
         </form>
       </div>
@@ -188,6 +204,114 @@
           <img src="img/facilities3.png" width="90%" height="auto" />
         </div>
       </div>
+    </div>
+    <div class="interests">
+      <span>You may be Interested</span>
+      <div class="interestsBody">
+        <div class="interestItems">
+          <img src="img/interest1.png" width="90%" height="auto" />
+          <h3>Hepatobiliary Surgery</h3>
+          <p>
+            The Hepatobiliary and Transplantology Unit of GG Hospital offers a
+            comprehensive... <a href="blank">Read More</a>
+          </p>
+        </div>
+        <div class="interestItems">
+          <img src="img/interest2.png" width="90%" height="auto" />
+          <h3>Hepatobiliary Surgery</h3>
+          <p>
+            The Hepatobiliary and Transplantology Unit of GG Hospital offers a
+            comprehensive... <a href="blank">Read More</a>
+          </p>
+        </div>
+        <div class="interestItems">
+          <img src="img/interest3.png" width="90%" height="auto" />
+          <h3>Hepatobiliary Surgery</h3>
+          <p>
+            The Hepatobiliary and Transplantology Unit of GG Hospital offers a
+            comprehensive... <a href="blank">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="newsletter">
+      <div class="subscribe">
+        <div class="subscribeLeft">
+          <p>Subscribe our <br />Newsletter Sign up</p>
+          <img src="img/subscribe_pattern.png" width="100%" height="auto" />
+        </div>
+        <div class="subscribeRight">
+          <form>
+            <input type="text" id="email" placeholder="Enter your mail id" />
+          </form>
+          <button class="button3">Subscribe</button>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footerTop">
+        <div class="footerTopLeft">
+          <img src="img/logo.png" />
+          <p>
+            GG Hospital is the flagship hospital of the Sree Gokulam Group of
+            Companies. Our journey started on 27th January 2016 for the common
+            people in Trivandrum.
+          </p>
+        </div>
+        <div class="footerTopMid">
+          <div class="footerTopMidAboutHeader">
+            <h3>About GG</h3>
+          </div>
+          <div class="footerTopMidAboutContent">
+            <p><a href="">About US</a></p>
+            <p><a href="">Academic</a></p>
+            <p><a href="">Hospital</a></p>
+            <p><a href="">Department</a></p>
+          </div>
+        </div>
+        <div class="footerTopRight">
+          <div class="footerTopRightAboutHeader">
+            <h3>Legal</h3>
+          </div>
+          <div class="footerTopRightAboutContent">
+            <p><a href="">Privacy Policy</a></p>
+            <p><a href="">Documentation</a></p>
+            <p><a href="">Terms of Service</a></p>
+            <p><a href="">Site Map</a></p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="footerBottom">
+        <div class="footerBottomText">
+          <div class="footerBottomTextLeft">
+            <img src="img/footer_address.png" width="5%" height="auto" />
+            <p>
+              Medical College, Pattom Kumarapuram Rd,<br />
+              Murinjapalam, Thiruvananthapuram, Kerala 695011
+            </p>
+          </div>
+          <div class="footerBottomTextMid">
+            <img src="img/footer_call.png" width="5%" height="auto" />
+            <p>0471 2779100<br />0471 2779101</p>
+          </div>
+          <div class="footerBottomTextRight">
+            <img src="img/footer_mail.png" width="5%" height="auto" />
+            <p>gghospitalphkpl@gmail.com<br />edoffice@gg-hospital.com</p>
+          </div>
+        </div>
+        <div class="footerBottomSocial">
+          <p>We are on Social Media</p>
+          <img src="img/social_linkedin.png" width="7%" height="auto" />
+          <img src="img/social_youtube.png" width="7%" height="auto" />
+          <img src="img/social_instagram.png" width="7%" height="auto" />
+          <img src="img/social_facebook.png" width="7%" height="auto" />
+        </div>
+      </div>
+    </div>
+    <div class="trademark">
+      <p>© 2023 GG Hospital.</p>
     </div>
   </body>
 </html>
