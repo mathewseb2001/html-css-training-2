@@ -12,6 +12,6 @@ The page has the following contents included:
 8. Footer
 9. Newsletter
 ## Browser Screen
-![Preview]()
+![Preview](https://github.com/mathewseb2001/html-css-training-2/blob/dev/gghospital/screens/Screen1.png?raw=true)
 ## Full Page Screenshot
-![Preview]()
+![Preview](https://github.com/mathewseb2001/html-css-training-2/blob/dev/gghospital/screens/Screen2.jpeg?raw=true)
