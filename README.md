@@ -14,4 +14,4 @@ The page has the following contents included:
 ## Browser Screen
 ![Preview]()
 ## Full Page Screenshot
-![Preview](https://raw.githubusercontent.com/madhavbiju/html-css-training-assgiment-gg/dev/assets/SSFull.jpeg)
+![Preview]()
